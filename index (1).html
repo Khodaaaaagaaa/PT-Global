@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT Global — Tax-Ready Talent for CPA Firms</title>
+  <meta name="description" content="PT Global places pre-screened tax preparers, CPAs, enrolled agents, bookkeepers, and accounting support professionals exclusively inside U.S. CPA and tax firms." />
+  <meta name="keywords" content="tax staffing agency USA, CPA firm staffing solutions, tax season staff augmentation, hire tax preparers, accounting firm staffing, enrolled agent staffing" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="PT Global — Tax-Ready Talent for CPA Firms" />
+  <meta property="og:description" content="Pre-screened tax and accounting professionals placed exclusively inside U.S. CPA and tax firms." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://ptgteam.com" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"EmploymentAgency","name":"PT Global","description":"Specialized staffing and talent placement for U.S. CPA and tax firms","url":"https://ptgteam.com","areaServed":"United States","sameAs":["https://www.linkedin.com/company/ptgteam"]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--navy:#0F1F35;--navy2:#162847;--navy3:#1E3459;--teal:#0A6E6E;--tealL:#0D8A8A;--tealPale:#E8F4F4;--gold:#C4920A;--goldL:#E0AC2A;--goldPale:#FDF6E3;--white:#FFFFFF;--off:#F7F5F1;--g1:#EDEAE4;--g3:#B0ABA2;--g5:#6B6760;--text:#1A1714;--r:6px;--rL:14px;--ease:cubic-bezier(.4,0,.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);line-height:1.7;overflow-x:hidden}
+    h1,h2,h3,h4{font-family:'Sora',sans-serif;line-height:1.15}
+    a{text-decoration:none;color:inherit}
+    ul{list-style:none}
+
+    /* NAV */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(15,31,53,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(10,110,110,.25);transition:box-shadow .3s}
+    .nav.scrolled{box-shadow:0 4px 32px rgba(0,0,0,.3)}
+    .nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between}
+    .logo{display:flex;align-items:center;gap:11px}
+    .logo-icon{width:36px;height:36px;background:var(--teal);border-radius:var(--r);display:flex;align-items:center;justify-content:center}
+    .logo-icon svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8}
+    .logo-name{font-family:'Sora',sans-serif;font-size:1.35rem;font-weight:600;color:#fff;letter-spacing:.5px}
+    .logo-name span{color:var(--tealL)}
+    .nav-links{display:flex;align-items:center;gap:2rem}
+    .nav-links a{font-size:.88rem;font-weight:500;color:rgba(255,255,255,.65);transition:color .25s}
+    .nav-links a:hover{color:var(--tealL)}
+    .nav-cta{background:var(--gold);color:var(--navy)!important;padding:9px 22px;border-radius:var(--r);font-size:.85rem!important;font-weight:600!important;transition:background .25s!important}
+    .nav-cta:hover{background:var(--goldL)!important;color:var(--navy)!important}
+    .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+    .burger span{display:block;width:22px;height:2px;background:#fff;border-radius:2px;transition:.3s}
+    .mob-menu{display:none;position:fixed;top:68px;left:0;right:0;background:var(--navy);border-top:1px solid rgba(10,110,110,.2);padding:1.5rem 2rem;z-index:99;flex-direction:column;gap:1.2rem}
+    .mob-menu.open{display:flex}
+    .mob-menu a{color:rgba(255,255,255,.75);font-size:1rem;font-weight:500}
+
+    /* HERO */
+    .hero{min-height:100vh;background:var(--navy);display:flex;align-items:center;padding:120px 2rem 80px;position:relative;overflow:hidden}
+    .hero-bg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 60% 60% at 80% 30%,rgba(10,110,110,.12) 0%,transparent 70%),radial-gradient(ellipse 40% 50% at 10% 80%,rgba(196,146,10,.06) 0%,transparent 60%)}
+    .hero-grid{position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(10,110,110,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(10,110,110,.04) 1px,transparent 1px);background-size:72px 72px}
+    .hero-inner{max-width:1200px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;position:relative;z-index:1}
+    .hero-label{display:inline-flex;align-items:center;gap:8px;background:rgba(10,110,110,.15);border:1px solid rgba(10,110,110,.4);border-radius:2px;padding:5px 14px;font-size:.75rem;font-weight:600;color:var(--tealL);letter-spacing:2px;text-transform:uppercase;margin-bottom:1.5rem}
+    .hero-label::before{content:'';width:6px;height:6px;background:var(--tealL);border-radius:50%}
+    .hero-h1{font-size:clamp(2.6rem,4.5vw,4rem);color:#fff;margin-bottom:1.5rem;font-weight:600}
+    .hero-h1 em{font-style:italic;color:var(--tealL)}
+    .hero-sub{font-size:1.05rem;color:rgba(255,255,255,.6);line-height:1.8;margin-bottom:2.5rem;max-width:480px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:3rem}
+    .btn-primary{background:var(--gold);color:var(--navy);padding:14px 30px;border-radius:var(--r);font-weight:600;font-size:.95rem;display:inline-flex;align-items:center;gap:8px;transition:background .25s,transform .2s;border:none;cursor:pointer}
+    .btn-primary:hover{background:var(--goldL);transform:translateY(-1px)}
+    .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25);padding:13px 30px;border-radius:var(--r);font-weight:500;font-size:.95rem;transition:border-color .25s,background .25s;cursor:pointer}
+    .btn-outline:hover{border-color:var(--tealL);background:rgba(10,110,110,.1)}
+    .hero-stats{display:flex;gap:2.5rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,.08)}
+    .stat-n{font-family:'Sora',sans-serif;font-size:2.2rem;font-weight:700;color:var(--tealL)}
+    .stat-l{font-size:.75rem;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.8px;margin-top:2px}
+    .hero-card-wrap{position:relative}
+    .hero-card{background:var(--navy2);border:1px solid rgba(10,110,110,.25);border-radius:var(--rL);padding:2rem}
+    .hc-label{font-size:.7rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--tealL);margin-bottom:1rem}
+    .hc-title{font-family:'Sora',sans-serif;font-size:1.3rem;color:#fff;margin-bottom:1.5rem}
+    .hc-metrics{display:flex;gap:.75rem;margin-bottom:1.5rem}
+    .hc-metric{flex:1;background:rgba(10,110,110,.1);border:1px solid rgba(10,110,110,.2);border-radius:var(--r);padding:.9rem;text-align:center}
+    .hc-metric-n{font-family:'Sora',sans-serif;font-size:1.6rem;color:var(--tealL);font-weight:700}
+    .hc-metric-l{font-size:.72rem;color:rgba(255,255,255,.4);margin-top:2px}
+    .hc-prog{margin-bottom:10px}
+    .hc-prog-row{display:flex;justify-content:space-between;font-size:.72rem;color:rgba(255,255,255,.45);margin-bottom:5px}
+    .hc-bar{height:3px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden}
+    .hc-fill{height:100%;background:var(--teal);border-radius:2px;transition:width 1.2s var(--ease);width:0}
+    .hc-badge{position:absolute;bottom:-14px;right:1.5rem;background:var(--teal);border-radius:var(--r);padding:9px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 8px 24px rgba(10,110,110,.3)}
+    .hc-badge-dot{width:8px;height:8px;background:#5fffbb;border-radius:50%;animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(1.3)}}
+    .hc-badge-text{font-size:.78rem;font-weight:600;color:#fff}
+
+    /* TRUST */
+    .trust{background:var(--off);border-bottom:1px solid var(--g1);padding:1.75rem 2rem}
+    .trust-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;justify-content:center}
+    .trust-label{font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--g3);flex-shrink:0}
+    .trust-logos{display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;justify-content:center}
+    .trust-item{font-family:'Sora',sans-serif;font-size:1.05rem;font-weight:600;color:var(--g3);transition:color .25s;cursor:default}
+    .trust-item:hover{color:var(--navy)}
+
+    /* SHARED */
+    .section{padding:100px 2rem}
+    .section-dark{background:var(--navy)}
+    .section-off{background:var(--off)}
+    .container{max-width:1200px;margin:0 auto}
+    .sec-eye{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--teal);margin-bottom:.9rem}
+    .sec-eye-light{color:var(--tealL)}
+    .sec-h2{font-size:clamp(2rem,3.5vw,2.8rem);font-weight:600;color:var(--navy);margin-bottom:1rem}
+    .sec-h2-light{color:#fff}
+    .sec-sub{font-size:1rem;color:var(--g5);line-height:1.8}
+    .sec-sub-light{color:rgba(255,255,255,.55)}
+    .sec-header{text-align:center;max-width:620px;margin:0 auto 4rem}
+
+    /* PROBLEM */
+    .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+    .prob-card{background:var(--navy2);border:1px solid rgba(10,110,110,.15);border-radius:var(--rL);padding:2rem;transition:border-color .3s,transform .3s}
+    .prob-card:hover{border-color:rgba(10,110,110,.4);transform:translateY(-3px)}
+    .prob-icon{color:var(--tealL);margin-bottom:1rem;display:flex}
+    .prob-title{font-family:'Sora',sans-serif;font-size:1.2rem;color:#fff;margin-bottom:.6rem}
+    .prob-text{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.7}
+
+    /* WHO */
+    .who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+    .who-card{background:#fff;border:1px solid var(--g1);border-radius:var(--rL);padding:2.5rem;position:relative;overflow:hidden;transition:border-color .3s,transform .3s,box-shadow .3s}
+    .who-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--teal);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+    .who-card:hover{border-color:rgba(10,110,110,.3);transform:translateY(-4px);box-shadow:0 20px 40px rgba(15,31,53,.08)}
+    .who-card:hover::before{transform:scaleX(1)}
+    .who-num{font-family:'Sora',sans-serif;font-size:3rem;font-weight:700;color:var(--tealPale);line-height:1;margin-bottom:.75rem}
+    .who-title{font-family:'Sora',sans-serif;font-size:1.35rem;color:var(--navy);margin-bottom:.6rem;font-weight:600}
+    .who-desc{font-size:.9rem;color:var(--g5);line-height:1.75;margin-bottom:1.25rem}
+    .who-tags{display:flex;flex-wrap:wrap;gap:6px}
+    .tag{font-size:.72rem;font-weight:600;color:var(--teal);background:var(--tealPale);border-radius:3px;padding:3px 10px}
+
+    /* SERVICES */
+    .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+    .svc-card{background:var(--navy2);border:1px solid rgba(10,110,110,.15);border-radius:var(--rL);padding:2.5rem;transition:border-color .3s}
+    .svc-card:hover{border-color:rgba(10,110,110,.4)}
+    .svc-icon{width:48px;height:48px;background:rgba(10,110,110,.15);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1.25rem}
+    .svc-title{font-family:'Sora',sans-serif;font-size:1.4rem;color:#fff;margin-bottom:.6rem}
+    .svc-desc{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.75;margin-bottom:1.25rem}
+    .svc-list{display:flex;flex-direction:column;gap:.4rem}
+    .svc-list li{font-size:.85rem;color:rgba(255,255,255,.45);padding-left:1rem;position:relative}
+    .svc-list li::before{content:'—';position:absolute;left:0;color:var(--teal)}
+
+    /* FORMS */
+    .forms-wrap{background:var(--navy2);border:1px solid rgba(10,110,110,.2);border-radius:var(--rL);padding:2.5rem}
+    .forms-title{font-family:'Sora',sans-serif;font-size:1.4rem;color:#fff;margin-bottom:.5rem}
+    .forms-sub{font-size:.88rem;color:rgba(255,255,255,.45);margin-bottom:1.75rem}
+    .forms-grid,.software-grid{display:flex;flex-wrap:wrap;gap:.6rem}
+    .software-grid{margin-top:1rem}
+    .form-tag{background:rgba(10,110,110,.12);border:1px solid rgba(10,110,110,.25);border-radius:3px;padding:5px 12px;font-size:.8rem;font-weight:600;color:var(--tealL);letter-spacing:.3px}
+    .sw-tag{background:rgba(196,146,10,.08);border:1px solid rgba(196,146,10,.2);border-radius:3px;padding:5px 12px;font-size:.8rem;font-weight:600;color:var(--goldL);letter-spacing:.3px}
+
+    /* STEPS */
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+    .steps::before{content:'';position:absolute;top:30px;left:10%;right:10%;height:1px;background:var(--g1);z-index:0}
+    .step{text-align:center;padding:0 1.25rem;position:relative;z-index:1}
+    .step-n{width:60px;height:60px;background:#fff;border:2px solid var(--g1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;font-family:'Sora',sans-serif;font-size:1.25rem;font-weight:700;color:var(--navy);transition:background .3s,border-color .3s,color .3s}
+    .step:hover .step-n{background:var(--teal);border-color:var(--teal);color:#fff}
+    .step-title{font-family:'Sora',sans-serif;font-size:1.1rem;color:var(--navy);margin-bottom:.4rem;font-weight:600}
+    .step-desc{font-size:.85rem;color:var(--g5);line-height:1.65}
+
+    /* STAYS */
+    .stays-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+    .stays-card{border-radius:var(--rL);padding:2.5rem}
+    .stays-card.ptg{background:var(--teal)}
+    .stays-card.firm{background:var(--navy2);border:1px solid rgba(10,110,110,.2)}
+    .stays-label{font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem}
+    .stays-label.ptg{color:rgba(255,255,255,.7)}
+    .stays-label.firm{color:var(--tealL)}
+    .stays-title{font-family:'Sora',sans-serif;font-size:1.5rem;margin-bottom:1.25rem;font-weight:600;color:#fff}
+    .stays-list{display:flex;flex-direction:column;gap:.75rem}
+    .stays-item{display:flex;align-items:flex-start;gap:.75rem;font-size:.9rem;line-height:1.55}
+    .stays-item.ptg{color:rgba(255,255,255,.85)}
+    .stays-item.firm{color:rgba(255,255,255,.7)}
+    .stays-dot{width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;flex-shrink:0;margin-top:2px}
+    .stays-dot.ptg{background:rgba(255,255,255,.25);color:#fff}
+    .stays-dot.firm{background:rgba(10,110,110,.3);color:var(--tealL)}
+
+    /* ABOUT */
+    .about-inner{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+    .about-text{font-size:1rem;color:rgba(255,255,255,.6);line-height:1.85;margin-bottom:1.25rem}
+    .about-values{display:flex;flex-direction:column;gap:.9rem;margin-top:2rem}
+    .val-item{display:flex;align-items:flex-start;gap:.85rem}
+    .val-dot{width:7px;height:7px;background:var(--tealL);border-radius:50%;flex-shrink:0;margin-top:8px}
+    .val-text{font-size:.92rem;color:rgba(255,255,255,.6);line-height:1.6}
+    .val-text strong{color:#fff;font-weight:600}
+    .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+    .ast{background:rgba(255,255,255,.04);border:1px solid rgba(10,110,110,.2);border-radius:var(--rL);padding:1.75rem}
+    .ast.featured{background:var(--teal);border-color:var(--teal);grid-column:span 2}
+    .ast-n{font-family:'Sora',sans-serif;font-size:2.4rem;font-weight:700;color:var(--tealL)}
+    .ast.featured .ast-n{color:#fff}
+    .ast-l{font-size:.83rem;color:rgba(255,255,255,.4);margin-top:3px}
+    .ast.featured .ast-l{color:rgba(255,255,255,.7)}
+
+    /* TESTI */
+    .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+    .testi-card{background:#fff;border:1px solid var(--g1);border-radius:var(--rL);padding:2rem;transition:border-color .3s}
+    .testi-card:hover{border-color:rgba(10,110,110,.3)}
+    .stars{display:flex;gap:3px;margin-bottom:.9rem}
+    .stars svg{width:13px;height:13px;fill:var(--gold)}
+    .testi-q{font-size:.93rem;color:var(--g5);line-height:1.75;font-style:italic;margin-bottom:1.25rem}
+    .testi-author{display:flex;align-items:center;gap:.75rem}
+    .testi-av{width:38px;height:38px;border-radius:50%;background:var(--tealPale);display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-size:.9rem;font-weight:700;color:var(--teal)}
+    .testi-name{font-weight:600;font-size:.88rem;color:var(--navy)}
+    .testi-role{font-size:.78rem;color:var(--g3)}
+
+    /* CTA */
+    .cta-banner{background:var(--teal);padding:80px 2rem}
+    .cta-inner{max-width:860px;margin:0 auto;text-align:center}
+    .cta-h2{font-family:'Sora',sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:600;color:#fff;margin-bottom:.9rem}
+    .cta-sub{font-size:1rem;color:rgba(255,255,255,.75);margin-bottom:2.5rem}
+    .cta-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem}
+    .btn-dark{background:var(--navy);color:#fff;padding:14px 30px;border-radius:var(--r);font-weight:600;font-size:.95rem;transition:background .25s}
+    .btn-dark:hover{background:var(--navy2)}
+    .btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);padding:12px 30px;border-radius:var(--r);font-weight:500;font-size:.95rem;transition:border-color .25s;cursor:pointer}
+    .btn-ghost:hover{border-color:#fff}
+
+    /* CONTACT */
+    .contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+    .contact-intro{font-size:.97rem;color:var(--g5);line-height:1.8;margin-bottom:2.5rem}
+    .contact-detail{display:flex;align-items:center;gap:.9rem;margin-bottom:1.1rem}
+    .cd-icon{width:42px;height:42px;background:var(--tealPale);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+    .cd-label{font-size:.72rem;color:var(--g3);text-transform:uppercase;letter-spacing:.8px}
+    .cd-val{font-size:.9rem;color:var(--text);font-weight:500}
+    .form-box{background:#fff;border:1px solid var(--g1);border-radius:var(--rL);padding:2.5rem}
+    .form-title{font-family:'Sora',sans-serif;font-size:1.5rem;color:var(--navy);margin-bottom:1.5rem;font-weight:600}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+    .form-group{margin-bottom:1rem}
+    .form-label{display:block;font-size:.72rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--g5);margin-bottom:5px}
+    .form-input,.form-select,.form-textarea{width:100%;background:var(--off);border:1px solid var(--g1);border-radius:var(--r);padding:11px 13px;font-family:'DM Sans',sans-serif;font-size:.9rem;color:var(--text);outline:none;transition:border-color .25s;-webkit-appearance:none}
+    .form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--teal);background:#fff}
+    .form-textarea{resize:vertical;min-height:110px}
+    .form-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B6760' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;padding-right:34px;cursor:pointer}
+    .form-check{display:flex;align-items:flex-start;gap:9px;margin-bottom:1.25rem;cursor:pointer}
+    .form-check input{width:15px;height:15px;accent-color:var(--teal);flex-shrink:0;margin-top:2px;cursor:pointer}
+    .form-check-label{font-size:.8rem;color:var(--g5);line-height:1.5}
+    .form-check-label a{color:var(--teal);text-decoration:underline}
+    .form-submit{width:100%;background:var(--gold);color:var(--navy);border:none;cursor:pointer;padding:13px;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:.95rem;font-weight:600;transition:background .25s,transform .2s}
+    .form-submit:hover{background:var(--goldL);transform:translateY(-1px)}
+    .form-success{display:none;text-align:center;padding:2rem}
+    .form-success-icon{font-size:2.5rem;margin-bottom:.75rem}
+    .form-success h3{font-family:'Sora',sans-serif;font-size:1.4rem;color:var(--navy);margin-bottom:.4rem}
+    .form-success p{font-size:.88rem;color:var(--g5)}
+
+    /* FOOTER */
+    footer{background:var(--navy);border-top:1px solid rgba(10,110,110,.2);padding:60px 2rem 28px}
+    .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,.07)}
+    .footer-brand p{font-size:.88rem;color:rgba(255,255,255,.35);line-height:1.75;margin-top:.9rem;max-width:270px}
+    .fc-title{font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--tealL);margin-bottom:1.1rem}
+    .fc ul{display:flex;flex-direction:column;gap:.65rem}
+    .fc ul a{font-size:.88rem;color:rgba(255,255,255,.4);transition:color .25s}
+    .fc ul a:hover{color:var(--tealL)}
+    .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    .footer-copy{font-size:.8rem;color:rgba(255,255,255,.25)}
+    .footer-social{display:flex;gap:.75rem}
+    .social-a{width:34px;height:34px;border:1px solid rgba(255,255,255,.1);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:.82rem;color:rgba(255,255,255,.35);transition:border-color .25s,color .25s}
+    .social-a:hover{border-color:var(--tealL);color:var(--tealL)}
+
+    /* ANIMATIONS */
+    .fade-up{opacity:0;transform:translateY(22px);transition:opacity .65s var(--ease),transform .65s var(--ease)}
+    .fade-up.visible{opacity:1;transform:translateY(0)}
+    .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
+
+    /* RESPONSIVE */
+    @media(max-width:1024px){.hero-inner{grid-template-columns:1fr;gap:3rem}.hero-card-wrap{max-width:480px;margin:0 auto}.about-inner{grid-template-columns:1fr;gap:3rem}.footer-top{grid-template-columns:1fr 1fr}.services-grid{grid-template-columns:1fr}}
+    @media(max-width:768px){.nav-links{display:none}.burger{display:flex}.problem-grid,.who-grid,.testi-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr;gap:2rem}.steps::before{display:none}.stays-grid,.contact-inner{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.footer-top{grid-template-columns:1fr}.hero-stats{flex-wrap:wrap;gap:1.5rem}.about-stats{grid-template-columns:1fr 1fr}}
+    @media(max-width:480px){.hero,.section{padding-left:1.25rem;padding-right:1.25rem}.steps{grid-template-columns:1fr}.ast.featured{grid-column:span 1}}
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+      <span class="logo-name">PT <span>Global</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#contact" class="nav-cta">Book a Call</a>
+    </div>
+    <button class="burger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mob-menu" id="mobMenu">
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#how" onclick="toggleMenu()">How It Works</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#testimonials" onclick="toggleMenu()">Clients</a>
+  <a href="#contact" onclick="toggleMenu()">Book a Call</a>
+</div>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-label fade-up">Tax Staffing Specialists</div>
+      <h1 class="hero-h1 fade-up d1">Tax-Ready Talent <em>Built for</em> CPA Firms</h1>
+      <p class="hero-sub fade-up d2">PT Global places pre-screened tax preparers, enrolled agents, bookkeepers, and accounting support professionals exclusively inside U.S. CPA and tax firms — so your team focuses on clients, not hiring.</p>
+      <div class="hero-actions fade-up d3">
+        <a href="#contact" class="btn-primary">Book a Staffing Call →</a>
+        <a href="#services" class="btn-outline">Explore Services</a>
+      </div>
+      <div class="hero-stats fade-up d4">
+        <div><div class="stat-n" data-target="80" data-suffix="+">0+</div><div class="stat-l">Placements Made</div></div>
+        <div><div class="stat-n" data-target="7" data-suffix="+">0+</div><div class="stat-l">CPA Firms Served</div></div>
+        <div><div class="stat-n" data-target="100" data-suffix="%">0%</div><div class="stat-l">Tax Niche Focus</div></div>
+      </div>
+    </div>
+    <div class="hero-card-wrap fade-up d2">
+      <div class="hero-card">
+        <div class="hc-label">Active Placement — CPA Firm</div>
+        <div class="hc-title">Tax Season Capacity Build</div>
+        <div class="hc-metrics">
+          <div class="hc-metric"><div class="hc-metric-n">5d</div><div class="hc-metric-l">Time to shortlist</div></div>
+          <div class="hc-metric"><div class="hc-metric-n">3</div><div class="hc-metric-l">Roles filled</div></div>
+        </div>
+        <div class="hc-prog"><div class="hc-prog-row"><span>Tax Preparers</span><span>3/3 placed</span></div><div class="hc-bar"><div class="hc-fill" data-width="100%"></div></div></div>
+        <div class="hc-prog"><div class="hc-prog-row"><span>Admin Support</span><span>1/2 placed</span></div><div class="hc-bar"><div class="hc-fill" data-width="50%"></div></div></div>
+        <div class="hc-prog"><div class="hc-prog-row"><span>Bookkeeper</span><span>Shortlisting</span></div><div class="hc-bar"><div class="hc-fill" data-width="30%"></div></div></div>
+      </div>
+      <div class="hc-badge"><div class="hc-badge-dot"></div><div class="hc-badge-text">Active placement in progress</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="trust-inner">
+    <span class="trust-label">Trusted by</span>
+    <div class="trust-logos">
+      <span class="trust-item">Parsi & Company</span>
+      <span class="trust-item">MLS Tax Group</span>
+      <span class="trust-item">Foster CPA</span>
+      <span class="trust-item">Summit ATS</span>
+      <span class="trust-item">U.S. CPA Firms Nationwide</span>
+    </div>
+  </div>
+</div>
+
+<section class="section section-dark" id="problem">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye sec-eye-light">The Challenge</span>
+      <h2 class="sec-h2 sec-h2-light">What Every CPA Firm Faces at Tax Season</h2>
+      <p class="sec-sub sec-sub-light">The demand is predictable. The staffing solution shouldn't have to be a crisis every year.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="prob-card fade-up d1"><div class="prob-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="prob-title">Capacity Bottlenecks</div><p class="prob-text">January arrives and your team is already at capacity. Recruiting from scratch during the busiest season costs weeks you don't have.</p></div>
+      <div class="prob-card fade-up d2"><div class="prob-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><div class="prob-title">Generalist Agencies Miss</div><p class="prob-text">Most staffing agencies send generic profiles. They don't know Drake from ProConnect, or a 1065 from a 1120-S. You waste time re-explaining your world.</p></div>
+      <div class="prob-card fade-up d3"><div class="prob-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="4" y="4" width="16" height="18" rx="2"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="12" y2="18"/></svg></div><div class="prob-title">Hiring Overhead</div><p class="prob-text">Sourcing, screening, interviewing, and onboarding pulls partners and managers away from billable client work at the worst possible moment.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="who">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye">Who We Serve</span>
+      <h2 class="sec-h2">Built Exclusively for Tax & Accounting Practices</h2>
+      <p class="sec-sub">PT Global doesn't serve every industry. We serve one — and we know it deeply.</p>
+    </div>
+    <div class="who-grid">
+      <div class="who-card fade-up d1"><div class="who-num">01</div><div class="who-title">CPA Firms</div><p class="who-desc">Small-to-medium practices preparing individual and business returns that need qualified tax capacity without the overhead of a full-time hire.</p><div class="who-tags"><span class="tag">1–50 Staff</span><span class="tag">Seasonal Surge</span><span class="tag">Year-Round</span></div></div>
+      <div class="who-card fade-up d2"><div class="who-num">02</div><div class="who-title">EA Practices</div><p class="who-desc">Enrolled Agent firms handling high return volumes that need pre-screened preparers and admin support aligned to IRS workflows and deadlines.</p><div class="who-tags"><span class="tag">High Volume</span><span class="tag">IRS Aligned</span><span class="tag">Deadline-Driven</span></div></div>
+      <div class="who-card fade-up d3"><div class="who-num">03</div><div class="who-title">Tax Accounting Firms</div><p class="who-desc">Multi-service accounting firms that need bookkeeping support, tax admin, and document management staff who already understand the workflow.</p><div class="who-tags"><span class="tag">Bookkeeping</span><span class="tag">Tax Admin</span><span class="tag">Back-Office</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="services">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye sec-eye-light">Services</span>
+      <h2 class="sec-h2 sec-h2-light">Every Role Your Firm Needs — Screened for Tax</h2>
+      <p class="sec-sub sec-sub-light">We place staff across every function a CPA or tax firm relies on. Every candidate is vetted for your specific environment.</p>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card fade-up d1"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--tealL)" stroke-width="1.5" width="24" height="24"><path d="M3 3v18h18"/><rect x="7" y="13" width="3" height="7" rx="1"/><rect x="12" y="9" width="3" height="11" rx="1"/><rect x="17" y="5" width="3" height="15" rx="1"/></svg></div><div class="svc-title">Tax Staff Placement</div><p class="svc-desc">Our flagship service. Pre-screened tax professionals placed directly inside your firm's workflow — ready from day one.</p><ul class="svc-list"><li>Tax Preparers (individual & business returns)</li><li>CPAs & Enrolled Agents</li><li>Senior Tax Reviewers</li><li>Tax Associates & Junior Preparers</li></ul></div>
+      <div class="svc-card fade-up d2"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--tealL)" stroke-width="1.5" width="24" height="24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div><div class="svc-title">Administrative Staff Placement</div><p class="svc-desc">Tax-firm-aware admin professionals who understand document workflows, client communication, and CPA-firm operations.</p><ul class="svc-list"><li>Client Communication Assistants</li><li>Document Collection & Portal Managers</li><li>Office & Workflow Support Staff</li><li>Tax Admin Coordinators</li></ul></div>
+      <div class="svc-card fade-up d1"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--tealL)" stroke-width="1.5" width="24" height="24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><div class="svc-title">Bookkeeping & Accounting Support</div><p class="svc-desc">Accounting support professionals for month-end close, reconciliations, and back-office work inside your existing software.</p><ul class="svc-list"><li>Bookkeepers (QuickBooks, Xero, QBO)</li><li>Staff Accountants</li><li>AP / AR Specialists</li><li>Payroll Support Assistants</li></ul></div>
+      <div class="svc-card fade-up d2"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--tealL)" stroke-width="1.5" width="24" height="24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div class="svc-title">Seasonal & Peak-Season Staffing</div><p class="svc-desc">Activate the capacity you need for tax season and wind down after. No long-term overhead — just the right people at the right time.</p><ul class="svc-list"><li>January–April Surge Teams</li><li>Extension Season Support (Sep–Oct)</li><li>Contract-to-Hire Conversions</li><li>Multi-Role Seasonal Bundles</li></ul></div>
+    </div>
+    <div style="margin-top:2rem;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem" class="fade-up">
+      <div class="forms-wrap"><div class="forms-title">Tax Forms We Staff For</div><div class="forms-sub">Candidates are screened for experience with the specific forms your firm prepares.</div><div class="forms-grid"><span class="form-tag">1040</span><span class="form-tag">1040-NR</span><span class="form-tag">1065</span><span class="form-tag">1120</span><span class="form-tag">1120-S</span><span class="form-tag">1041</span><span class="form-tag">990</span><span class="form-tag">Schedule C</span><span class="form-tag">Schedule E</span><span class="form-tag">1099s</span><span class="form-tag">Multi-state</span><span class="form-tag">Extensions</span><span class="form-tag">Estimated Tax</span><span class="form-tag">Amended Returns</span><span class="form-tag">Workpapers</span></div></div>
+      <div class="forms-wrap"><div class="forms-title">Software Your Staff Will Know</div><div class="forms-sub">We screen for platform proficiency so your staff integrates from day one.</div><div class="software-grid"><span class="sw-tag">Drake</span><span class="sw-tag">ProSeries</span><span class="sw-tag">Lacerte</span><span class="sw-tag">UltraTax CS</span><span class="sw-tag">CCH Axcess</span><span class="sw-tag">ProConnect</span><span class="sw-tag">TaxDome</span><span class="sw-tag">SmartVault</span><span class="sw-tag">Canopy</span><span class="sw-tag">QuickBooks</span><span class="sw-tag">Xero</span><span class="sw-tag">QBO</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-off" id="how">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye">How It Works</span>
+      <h2 class="sec-h2">From Discovery Call to First Day — Fast</h2>
+      <p class="sec-sub">A clear, low-friction process designed for firm owners who don't have time for a complicated hiring engagement.</p>
+    </div>
+    <div class="steps">
+      <div class="step fade-up d1"><div class="step-n">01</div><div class="step-title">Discovery Call</div><p class="step-desc">We learn your firm's workflow, software, volume, and role requirements. 30 minutes — no vague intake forms.</p></div>
+      <div class="step fade-up d2"><div class="step-n">02</div><div class="step-title">Candidate Sourcing</div><p class="step-desc">We source and screen from our pre-vetted pool. Background, skills, software, and communication assessed before you see a single profile.</p></div>
+      <div class="step fade-up d3"><div class="step-n">03</div><div class="step-title">Shortlist Delivered</div><p class="step-desc">You receive 2–3 qualified candidates within days — not weeks. Review profiles, conduct brief interviews, and select your hire.</p></div>
+      <div class="step fade-up d4"><div class="step-n">04</div><div class="step-title">Placed & Working</div><p class="step-desc">Your new staff member integrates into your TaxDome, Drake, or QuickBooks workflow. We follow up to ensure the fit holds.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="clarity">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye sec-eye-light">Role Clarity</span>
+      <h2 class="sec-h2 sec-h2-light">What PT Global Handles vs. What Stays With You</h2>
+      <p class="sec-sub sec-sub-light">The most common concern about bringing in outside staff is loss of control. Here's exactly how it works.</p>
+    </div>
+    <div class="stays-grid fade-up">
+      <div class="stays-card ptg"><div class="stays-label ptg">PT Global handles</div><div class="stays-title">The Staffing Work</div><div class="stays-list"><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Sourcing, screening, and vetting candidates</div><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Skills and software assessment</div><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Communication and reliability verification</div><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Shortlist delivery and placement coordination</div><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Post-placement follow-up and fit assurance</div><div class="stays-item ptg"><div class="stays-dot ptg"><svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>Replacement guarantee if placement doesn't work</div></div></div>
+      <div class="stays-card firm"><div class="stays-label firm">Your firm keeps</div><div class="stays-title">Full Control</div><div class="stays-list"><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>Final review and sign-off on all returns</div><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>All client advisory and relationship management</div><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>Complex tax decisions and IRS representation</div><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>Quality control and workflow standards</div><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>Final hiring decision on every candidate</div><div class="stays-item firm"><div class="stays-dot firm"><svg viewBox="0 0 12 12" width="8" height="8"><circle cx="6" cy="6" r="3" fill="var(--tealL)"/></svg></div>Your firm's name, reputation, and client trust</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="about" style="padding-top:0">
+  <div class="container">
+    <div class="about-inner">
+      <div>
+        <span class="sec-eye sec-eye-light fade-up">Who We Are</span>
+        <h2 class="sec-h2 sec-h2-light fade-up d1">A Staffing Partner <em style="font-style:italic;color:var(--tealL)">Built for One Industry</em></h2>
+        <p class="about-text fade-up d2">PT Global was built around a simple observation: CPA and tax firms don't need a generalist agency. They need a partner that already understands what a 1065 is, why extension season matters, and why a candidate who can't navigate TaxDome isn't really a fit.</p>
+        <p class="about-text fade-up d3">We place staff exclusively inside U.S. CPA and tax firms — not across industries, not across functions. Every placement is screened for your specific environment. That focus is what makes the difference.</p>
+        <div class="about-values fade-up d4">
+          <div class="val-item"><div class="val-dot"></div><div class="val-text"><strong>Niche over generalist.</strong> We only work with tax and accounting firms — that's not a limitation, it's our edge.</div></div>
+          <div class="val-item"><div class="val-dot"></div><div class="val-text"><strong>Speed without shortcuts.</strong> Fast placements because our screening is continuous, not reactive.</div></div>
+          <div class="val-item"><div class="val-dot"></div><div class="val-text"><strong>Fit over volume.</strong> We'd rather place three people who stay than ten who don't last the season.</div></div>
+        </div>
+      </div>
+      <div class="about-stats fade-up d2">
+        <div class="ast"><div class="ast-n">80+</div><div class="ast-l">Professionals placed in CPA & tax firms</div></div>
+        <div class="ast"><div class="ast-n">7+</div><div class="ast-l">Client firms actively served nationwide</div></div>
+        <div class="ast featured"><div class="ast-n">100%</div><div class="ast-l">Tax & accounting niche focus — no generalist placements, ever</div></div>
+        <div class="ast"><div class="ast-n">5d</div><div class="ast-l">Average time from inquiry to candidate shortlist</div></div>
+        <div class="ast"><div class="ast-n">U.S.</div><div class="ast-l">Nationwide placement coverage for CPA firms</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <span class="sec-eye">Client Voices</span>
+      <h2 class="sec-h2">What CPA Firms Say About PT Global</h2>
+      <p class="sec-sub">Results from firms that used PT Global to build their tax-season teams.</p>
+    </div>
+    <div style="background:var(--goldPale);border:1px solid rgba(196,146,10,.25);border-radius:6px;padding:12px 18px;margin-bottom:1.5rem;font-size:.82rem;color:#7A5800;line-height:1.5;">
+        <strong>Note —</strong> The quotes below are format examples only. Real authorized client testimonials will replace these before launch. Do not publish without written authorization from each client.
+      </div>
+      <div class="testi-grid">
+      <div class="testi-card fade-up d1"><div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="testi-q">"PT Global sent us candidates who already knew TaxDome and could start preparing returns without a week of onboarding. That's exactly what we needed in January."</p><div class="testi-author"><div class="testi-av">JP</div><div><div class="testi-name">James P.</div><div class="testi-role">Managing Partner, CPA Firm — California</div></div></div></div>
+      <div class="testi-card fade-up d2"><div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="testi-q">"We've used general staffing agencies before. They don't get it. PT Global understood our workflow from the first call and delivered three solid tax preparers within a week."</p><div class="testi-author"><div class="testi-av">SR</div><div><div class="testi-name">Sandra R.</div><div class="testi-role">Operations Director, EA Practice — Texas</div></div></div></div>
+      <div class="testi-card fade-up d3"><div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="testi-q">"The admin assistant PT Global placed handled our client portal and document follow-up without any hand-holding. It freed up our senior staff to focus on complex returns."</p><div class="testi-author"><div class="testi-av">MK</div><div><div class="testi-name">Michael K.</div><div class="testi-role">Founder, Tax Accounting Firm — Florida</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-banner">
+  <div class="cta-inner fade-up">
+    <h2 class="cta-h2">Ready to Build Your Tax-Season Team?</h2>
+    <p class="cta-sub">Book a 30-minute discovery call. Tell us the roles, the software, and the timeline. We handle the rest.</p>
+    <div class="cta-actions"><a href="#contact" class="btn-dark">Book a Free Discovery Call</a><a href="#services" class="btn-ghost">View All Services</a></div>
+  </div>
+</div>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div>
+        <span class="sec-eye fade-up">Get in Touch</span>
+        <h2 class="sec-h2 fade-up d1" style="text-align:left;margin-bottom:1rem">Let's Talk About Your Staffing Needs</h2>
+        <p class="contact-intro fade-up d2">Whether you need one tax preparer or a full seasonal team, the first step is a conversation. We respond within one business day.</p>
+        <div class="fade-up d3">
+          <div class="contact-detail"><div class="cd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" width="20" height="20"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg></div><div><div class="cd-label">Email</div><div class="cd-val">contact@ptgteam.com</div></div></div>
+          <div class="contact-detail"><div class="cd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.89a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg></div><div><div class="cd-label">Phone</div><div class="cd-val">To be confirmed with owner</div></div></div>
+          <div class="contact-detail"><div class="cd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="cd-label">Headquarters</div><div class="cd-val">Miami, FL — Serving CPA Firms Nationwide</div></div></div>
+          <div class="contact-detail"><div class="cd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" width="20" height="20"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div><div><div class="cd-label">LinkedIn</div><div class="cd-val">linkedin.com/company/ptgteam</div></div></div>
+        </div>
+      </div>
+      <div class="form-box fade-up d2">
+        <div id="formContent">
+          <div class="form-title">Request Tax Staff</div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="fname">First Name</label><input class="form-input" type="text" id="fname" placeholder="James" autocomplete="given-name" /></div>
+            <div class="form-group"><label class="form-label" for="lname">Last Name</label><input class="form-input" type="text" id="lname" placeholder="Miller" autocomplete="family-name" /></div>
+          </div>
+          <div class="form-group"><label class="form-label" for="femail">Work Email *</label><input class="form-input" type="email" id="femail" placeholder="james@yourfirm.com" autocomplete="email" required /></div>
+          <div class="form-group"><label class="form-label" for="firm">Firm Name *</label><input class="form-input" type="text" id="firm" placeholder="Miller CPA Group" required /></div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="fphone">Phone</label><input class="form-input" type="tel" id="fphone" placeholder="+1 (305) 000-0000" autocomplete="tel" /></div>
+            <div class="form-group"><label class="form-label" for="fstate">State</label><select class="form-select" id="fstate"><option value="">Select state…</option><option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option></select></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="role">Role Needed</label><select class="form-select" id="role"><option value="">Select role…</option><option>Tax Preparer</option><option>CPA / Enrolled Agent</option><option>Bookkeeper</option><option>Tax Admin / Document Support</option><option>Staff Accountant</option><option>Multiple Roles</option></select></div>
+            <div class="form-group"><label class="form-label" for="timing">Timeline</label><select class="form-select" id="timing"><option value="">Select…</option><option>ASAP — within 1 week</option><option>2–4 weeks</option><option>Next tax season</option><option>Year-round position</option></select></div>
+          </div>
+          <div class="form-group"><label class="form-label" for="software">Software You Use</label><select class="form-select" id="software"><option value="">Select primary software…</option><option>Drake</option><option>ProSeries</option><option>Lacerte</option><option>UltraTax CS</option><option>CCH Axcess</option><option>ProConnect</option><option>TaxDome</option><option>SmartVault</option><option>Canopy</option><option>QuickBooks</option><option>Xero</option><option>Multiple / Other</option></select></div>
+          <div class="form-group"><label class="form-label" for="msg">Tell us about your needs</label><textarea class="form-textarea" id="msg" placeholder="Number of hires, specific requirements, anything else we should know…"></textarea></div>
+          <label class="form-check"><input type="checkbox" id="privacy" required /><span class="form-check-label">I agree to PT Global's <a href="#">Privacy Policy</a> and consent to being contacted about my inquiry.</span></label>
+          <button class="form-submit" type="button" onclick="submitForm()">Send Request →</button>
+        </div>
+        <div class="form-success" id="formSuccess"><div class="form-success-icon"><svg viewBox="0 0 52 52" fill="none" width="52" height="52"><circle cx="26" cy="26" r="25" stroke="var(--teal)" stroke-width="2"/><polyline points="14,26 22,34 38,18" stroke="var(--teal)" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3>Request Received</h3><p>A PT Global team member will be in touch within one business day.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><div class="logo-icon"><svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><span class="logo-name">PT <span>Global</span></span></div>
+        <p>Specialized staffing and talent placement exclusively for U.S. CPA and tax firms. Miami, FL — Nationwide.</p>
+      </div>
+      <div class="fc"><div class="fc-title">Services</div><ul><li><a href="#services">Tax Staff Placement</a></li><li><a href="#services">Administrative Placement</a></li><li><a href="#services">Bookkeeping Support</a></li><li><a href="#services">Seasonal Staffing</a></li></ul></div>
+      <div class="fc"><div class="fc-title">Company</div><ul><li><a href="#about">About PT Global</a></li><li><a href="#how">How It Works</a></li><li><a href="#testimonials">Client Stories</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div class="fc"><div class="fc-title">For Candidates</div><ul><li><a href="#contact">Join Our Talent Pool</a></li><li><a href="#contact">Apply Now</a></li><li><a href="#">Privacy Policy</a></li><li><a href="https://linkedin.com/company/ptgteam" target="_blank">LinkedIn</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 PT Global. All rights reserved. Miami, FL.</p>
+      <div class="footer-social"><a class="social-a" href="https://linkedin.com/company/ptgteam" target="_blank">in</a><a class="social-a" href="#">𝕏</a><a class="social-a" href="#contact">@</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',scrollY>40));
+  function toggleMenu(){document.getElementById('mobMenu').classList.toggle('open')}
+  document.addEventListener('click',e=>{const m=document.getElementById('mobMenu');if(!m.contains(e.target)&&!document.querySelector('.burger').contains(e.target))m.classList.remove('open')});
+  const obs=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+  setTimeout(()=>document.querySelectorAll('.hero .fade-up').forEach(el=>el.classList.add('visible')),80);
+  setTimeout(()=>document.querySelectorAll('.hc-fill[data-width]').forEach(b=>b.style.width=b.dataset.width),700);
+  function animateCounter(el,target,suffix){let s=null;const d=1800,fn=ts=>{if(!s)s=ts;const p=Math.min((ts-s)/d,1);el.textContent=Math.floor(p*target)+suffix;if(p<1)requestAnimationFrame(fn)};requestAnimationFrame(fn)}
+  const co=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('[data-target]').forEach(el=>animateCounter(el,+el.dataset.target,el.dataset.suffix||''));co.unobserve(e.target)}})},{threshold:.5});
+  const st=document.querySelector('.hero-stats');if(st)co.observe(st);
+  function submitForm(){const e=document.getElementById('femail').value.trim(),f=document.getElementById('firm').value.trim(),p=document.getElementById('privacy').checked;if(!e||!f||!p){alert('Please fill in your email, firm name, and accept the privacy policy.');return}if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)){alert('Please enter a valid email.');return}document.getElementById('formContent').style.display='none';document.getElementById('formSuccess').style.display='block'}
+</script>
+</body>
+</html>
