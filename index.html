@@ -62,7 +62,7 @@
     .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25);padding:13px 30px;border-radius:var(--r);font-weight:500;font-size:.95rem;transition:border-color .25s,background .25s;cursor:pointer}
     .btn-outline:hover{border-color:var(--tealL);background:rgba(10,110,110,.1)}
     .hero-stats{display:flex;gap:2.5rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,.08)}
-    .stat-n{font-family:'Sora',sans-serif;font-size:2.2rem;font-weight:700;color:var(--tealL)}
+    .stat-n{font-family:'Sora',sans-serif;font-size:2rem;font-weight:700;color:var(--tealL);white-space:nowrap}
     .stat-l{font-size:.75rem;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.8px;margin-top:2px}
     .hero-card-wrap{position:relative}
     .hero-card{background:var(--navy2);border:1px solid rgba(10,110,110,.25);border-radius:var(--rL);padding:2rem}
@@ -322,9 +322,9 @@
         <a href="#services" class="btn-outline">Explore Services</a>
       </div>
       <div class="hero-stats fade-up d4">
-        <div><div class="stat-n" data-target="80" data-suffix="+">0+</div><div class="stat-l">Placements Made</div></div>
+        <div><div class="stat-n" data-target="90" data-suffix="+">0+</div><div class="stat-l">Placements Made</div></div>
         <div><div class="stat-n" data-target="7" data-suffix="+">0+</div><div class="stat-l">CPA Firms Served</div></div>
-        <div><div class="stat-n" style="font-size:1.6rem">100%</div><div class="stat-l">Tax Niche Focus</div></div>
+        <div><div class="stat-n" data-target="100" data-suffix="%">0%</div><div class="stat-l">Tax Niche Focus</div></div>
       </div>
     </div>
     <div class="hero-card-wrap fade-up d2">
@@ -333,7 +333,7 @@
         <div class="hc-title">Tax Season Capacity Build</div>
         <div class="hc-metrics">
           <div class="hc-metric"><div class="hc-metric-n">5d</div><div class="hc-metric-l">Time to shortlist</div></div>
-          <div class="hc-metric"><div class="hc-metric-n">43</div><div class="hc-metric-l">Roles filled</div></div>
+          <div class="hc-metric"><div class="hc-metric-n">90+</div><div class="hc-metric-l">Roles filled</div></div>
         </div>
         <div class="hc-prog"><div class="hc-prog-row"><span>Tax Preparers</span><span>28/30 placed</span></div><div class="hc-bar"><div class="hc-fill" data-width="93%"></div></div></div>
         <div class="hc-prog"><div class="hc-prog-row"><span>Admin Support</span><span>15/20 placed</span></div><div class="hc-bar"><div class="hc-fill" data-width="75%"></div></div></div>
@@ -679,5 +679,8 @@
   }
   function submitForm(){const e=document.getElementById('femail').value.trim(),f=document.getElementById('firm').value.trim(),p=document.getElementById('privacy').checked;if(!e||!f||!p){alert('Please fill in your email, firm name, and accept the privacy policy.');return}if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)){alert('Please enter a valid email.');return}document.getElementById('formContent').style.display='none';document.getElementById('formSuccess').style.display='block';document.getElementById('formSuccess').scrollIntoView({behavior:'smooth',block:'center'})}
 </script>
+
+  <!-- Tidio Live Chat -->
+  <script src="//code.tidio.co/rapn6b9ozv3ag2o7cauvm2ckbittf3op.js" async></script>
 </body>
 </html>
