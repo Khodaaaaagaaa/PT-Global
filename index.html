@@ -66,16 +66,16 @@
     .stat-l{font-size:.75rem;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.8px;margin-top:2px}
     .hero-card-wrap{position:relative}
     .hero-card{background:var(--navy2);border:1px solid rgba(10,110,110,.25);border-radius:var(--rL);padding:2rem}
-    .hc-label{font-size:.7rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--tealL);margin-bottom:1rem}
+    .hc-label{font-size:.7rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#5ecfcf;margin-bottom:1rem}
     .hc-title{font-family:'Sora',sans-serif;font-size:1.3rem;color:#fff;margin-bottom:1.5rem}
     .hc-metrics{display:flex;gap:.75rem;margin-bottom:1.5rem}
     .hc-metric{flex:1;background:rgba(10,110,110,.1);border:1px solid rgba(10,110,110,.2);border-radius:var(--r);padding:.9rem;text-align:center}
     .hc-metric-n{font-family:'Sora',sans-serif;font-size:1.6rem;color:var(--tealL);font-weight:700}
     .hc-metric-l{font-size:.72rem;color:rgba(255,255,255,.6);margin-top:2px}
     .hc-prog{margin-bottom:10px}
-    .hc-prog-row{display:flex;justify-content:space-between;font-size:.72rem;color:rgba(255,255,255,.45);margin-bottom:5px}
+    .hc-prog-row{display:flex;justify-content:space-between;font-size:.72rem;color:rgba(255,255,255,.75);margin-bottom:5px}
     .hc-bar{height:3px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden}
-    .hc-fill{height:100%;background:var(--teal);border-radius:2px;transition:width 1.2s var(--ease);width:0}
+    .hc-fill{height:100%;background:var(--teal);border-radius:2px;transition:width 1.2s var(--ease);width:0;will-change:width}
     .hc-badge{position:absolute;bottom:-14px;right:1.5rem;background:var(--teal);border-radius:var(--r);padding:9px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 8px 24px rgba(10,110,110,.3)}
     .hc-badge-dot{width:8px;height:8px;background:#5fffbb;border-radius:50%;animation:pulse 2s infinite}
     @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(1.3)}}
@@ -84,9 +84,9 @@
     /* TRUST */
     .trust{background:var(--off);border-bottom:1px solid var(--g1);padding:1.75rem 2rem}
     .trust-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;justify-content:center}
-    .trust-label{font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--g3);flex-shrink:0}
+    .trust-label{font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#595959;flex-shrink:0}
     .trust-logos{display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;justify-content:center}
-    .trust-item{font-family:'Sora',sans-serif;font-size:1.05rem;font-weight:600;color:var(--g3);transition:color .25s;cursor:default}
+    .trust-item{font-family:'Sora',sans-serif;font-size:1.05rem;font-weight:600;color:#595959;transition:color .25s;cursor:default}
     .trust-item:hover{color:var(--navy)}
 
     /* SHARED */
@@ -240,16 +240,16 @@
     .footer-brand p{font-size:.88rem;color:rgba(255,255,255,.55);line-height:1.75;margin-top:.9rem;max-width:270px}
     .fc-title{font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--tealL);margin-bottom:1.1rem}
     .fc ul{display:flex;flex-direction:column;gap:.65rem}
-    .fc ul a{font-size:.88rem;color:rgba(255,255,255,.6);transition:color .25s}
+    .fc ul a{font-size:.88rem;color:rgba(255,255,255,.78);transition:color .25s}
     .fc ul a:hover{color:var(--tealL)}
     .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
-    .footer-copy{font-size:.8rem;color:rgba(255,255,255,.25)}
+    .footer-copy{font-size:.8rem;color:rgba(255,255,255,.65)}
     .footer-social{display:flex;gap:.75rem}
     .social-a{width:34px;height:34px;border:1px solid rgba(255,255,255,.1);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:.82rem;color:rgba(255,255,255,.55);transition:border-color .25s,color .25s}
     .social-a:hover{border-color:var(--tealL);color:var(--tealL)}
 
     /* ANIMATIONS */
-    .fade-up{opacity:0;transform:translateY(22px);transition:opacity .65s var(--ease),transform .65s var(--ease)}
+    .fade-up{opacity:0;transform:translateY(22px);transition:opacity .65s var(--ease),transform .65s var(--ease);will-change:opacity,transform}
     .fade-up.visible{opacity:1;transform:translateY(0)}
     .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
 
@@ -598,7 +598,7 @@
 <section id="privacy-policy" style="background:#F7F5F1;padding:60px 2rem;scroll-margin-top:68px">
   <div style="max-width:800px;margin:0 auto">
     <h2 style="font-family:'Sora',sans-serif;font-size:1.8rem;color:#0F1F35;margin-bottom:1rem">Privacy Policy</h2>
-    <p style="font-size:.8rem;color:#B0ABA2;margin-bottom:2rem">Last updated: May 2026</p>
+    <p style="font-size:.8rem;color:#767676;margin-bottom:2rem">Last updated: May 2026</p>
     <h3 style="font-family:'Sora',sans-serif;font-size:1.1rem;color:#0F1F35;margin-bottom:.5rem;margin-top:1.5rem">1. Information We Collect</h3>
     <p style="font-size:.95rem;color:#555;line-height:1.8;margin-bottom:1rem">When you submit a request through our website, we collect your name, email address, phone number, firm name, and any information you provide in the message field. Candidates who apply through the talent pool form also provide role type, experience level, availability, and background information.</p>
     <h3 style="font-family:'Sora',sans-serif;font-size:1.1rem;color:#0F1F35;margin-bottom:.5rem;margin-top:1.5rem">2. How We Use Your Information</h3>
@@ -609,7 +609,7 @@
     <p style="font-size:.95rem;color:#555;line-height:1.8;margin-bottom:1rem">Candidate information submitted through the talent pool form is used exclusively to match qualified professionals with CPA and tax firms. We will not share your profile with any firm without your prior consent. All placements are made with your knowledge and approval.</p>
     <h3 style="font-family:'Sora',sans-serif;font-size:1.1rem;color:#0F1F35;margin-bottom:.5rem;margin-top:1.5rem">5. Contact</h3>
     <p style="font-size:.95rem;color:#555;line-height:1.8;margin-bottom:1rem">For any questions regarding this Privacy Policy or your personal data, contact us at <a href="mailto:contact@ptgteam.com" style="color:#0A6E6E">contact@ptgteam.com</a>. PT Global is based in Miami, FL.</p>
-    <p style="font-size:.8rem;color:#B0ABA2;margin-top:2rem">This Privacy Policy applies to information collected through ptgteam.com and related PT Global web properties.</p>
+    <p style="font-size:.8rem;color:#767676;margin-top:2rem">This Privacy Policy applies to information collected through ptgteam.com and related PT Global web properties.</p>
   </div>
 </section>
 
@@ -634,7 +634,7 @@
       <div class="fc"><div class="fc-title">For Candidates</div><ul><li><a href="#contact">Join Our Talent Pool</a></li><li><a href="#contact">Apply Now</a></li><li><a href="#">Privacy Policy</a></li><li><a href="https://linkedin.com/company/ptgteam" target="_blank">LinkedIn</a></li></ul></div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">© 2025 PT Global. All rights reserved. Miami, FL.</p>
+      <p class="footer-copy">© 2026 PT Global. All rights reserved. Miami, FL.</p>
       <div class="footer-social"><a class="social-a" href="https://linkedin.com/company/ptgteam" target="_blank" aria-label="LinkedIn">in</a><a class="social-a" href="#contact" aria-label="Email">@</a></div>
     </div>
   </div>
